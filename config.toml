@@ -19,7 +19,7 @@ pygmentsUseClasses = true
   location = "Austria"
   math = true
   katex = true
-  
+  icon = "avatar.png" 
 
 [frontmatter]
   lastmod = ["lastmod", ":fileModTime", ":default"]
