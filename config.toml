@@ -1,4 +1,4 @@
-baseURL = 'http://example.org/'
+baseURL = 'https://avarus-invidia.github.io'
 languageCode = 'en-us'
 title = 'Avarus Invidia'
 theme = "github-style"
