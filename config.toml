@@ -1,0 +1,40 @@
+baseURL = 'http://example.org/'
+languageCode = 'en-us'
+title = 'Avarus Invidia'
+theme = "github-style"
+lastmod = true
+
+pygmentsCodeFences = true
+pygmentsUseClasses = true
+
+[params]
+  author = "avarus-invidia"
+  description = "Everonce a simulation."
+  github = "avarus-invidia"
+  twitter = "amadeus_at"
+  emails = "izayanamie@gmail.com"
+  gitlab = "s.kis"
+  rss = false
+  lastmod = true
+  location = "Austria"
+  math = true
+  katex = true
+  
+
+[frontmatter]
+  lastmod = ["lastmod", ":fileModTime", ":default"]
+
+enableGitalk = false
+
+  [params.gitalk]
+    clientID = "Your client ID" 
+    clientSecret = "Your client secret" 
+    repo = "repo"
+    owner = "Your Github username"
+    admin = "Your Github username"
+    id = "location.pathname"
+    labels = "gitalk"
+    perPage = 30
+    pagerDirection = "last"
+    createIssueManually = true
+    distractionFreeMode = false
