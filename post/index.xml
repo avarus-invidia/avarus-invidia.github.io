@@ -6,7 +6,17 @@
     <description>Recent content in Posts on Avarus Invidia</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 01 Feb 2022 21:01:17 +0100</lastBuildDate><atom:link href="https://avarus-invidia.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 03 Feb 2022 20:55:44 +0100</lastBuildDate><atom:link href="https://avarus-invidia.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>I hate cpp memory issues</title>
+      <link>https://avarus-invidia.github.io/post/i_hate_cpp_memory_issues/</link>
+      <pubDate>Thu, 03 Feb 2022 20:55:44 +0100</pubDate>
+      
+      <guid>https://avarus-invidia.github.io/post/i_hate_cpp_memory_issues/</guid>
+      <description>So you&amp;rsquo;re working just fine, no errors present in compilation, and then suddenly when you try it out it breaks on you due to memory related issues that make absolutely no sense.
+Of course, I am not even using vector. It is, of course, an old library. However, what can you do? The main code is made to work with that library due to its, ah, how was it? The bytes are stored close to each other so that accessing them becomes quicker.</description>
+    </item>
+    
     <item>
       <title>Night Thoughts</title>
       <link>https://avarus-invidia.github.io/post/night_thoughts/</link>
