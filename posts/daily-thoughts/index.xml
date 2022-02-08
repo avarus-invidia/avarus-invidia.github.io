@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Daily Thoughts on Avarus Invidia</title>
+    <link>https://avarus-invidia.github.io/posts/daily-thoughts/</link>
+    <description>Recent content in Daily Thoughts on Avarus Invidia</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 08 Feb 2022 22:25:59 +0100</lastBuildDate><atom:link href="https://avarus-invidia.github.io/posts/daily-thoughts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Memory Leakage Debugger</title>
+      <link>https://avarus-invidia.github.io/posts/daily-thoughts/memory_leakage_debugger/</link>
+      <pubDate>Tue, 08 Feb 2022 22:25:59 +0100</pubDate>
+      
+      <guid>https://avarus-invidia.github.io/posts/daily-thoughts/memory_leakage_debugger/</guid>
+      <description>So you&amp;rsquo;re having issues with memory allocation in your code? The solution to all my code memory problems was suggested today by my supervisor. As good as gdb can be, it doesn&amp;rsquo;t really help me pinpoint it as easily as this new (thought rather old by itself) tool I&amp;rsquo;ll henceforth be using for all segmentation faults.
+The tool itself Of course, a lot of people have heard of it. But not I!</description>
+    </item>
+    
+    <item>
+      <title>I hate cpp memory issues</title>
+      <link>https://avarus-invidia.github.io/posts/daily-thoughts/i_hate_cpp_memory_issues/</link>
+      <pubDate>Thu, 03 Feb 2022 20:55:44 +0100</pubDate>
+      
+      <guid>https://avarus-invidia.github.io/posts/daily-thoughts/i_hate_cpp_memory_issues/</guid>
+      <description>So you&amp;rsquo;re working just fine, no errors present in compilation, and then suddenly when you try it out it breaks on you due to memory related issues that make absolutely no sense.
+Of course, I am not even using vector. It is, of course, an old library. However, what can you do? The main code is made to work with that library due to its, ah, how was it? The bytes are stored close to each other so that accessing them becomes quicker.</description>
+    </item>
+    
+    <item>
+      <title>Night Thoughts</title>
+      <link>https://avarus-invidia.github.io/posts/daily-thoughts/night_thoughts/</link>
+      <pubDate>Tue, 01 Feb 2022 21:01:17 +0100</pubDate>
+      
+      <guid>https://avarus-invidia.github.io/posts/daily-thoughts/night_thoughts/</guid>
+      <description> The pizza today was great Overly stressed I indulged myself in a Mezzo/Mezzo pizza, one side being a quattro formaggi (four cheese) and the other one being bussola (ham and shrimp).
+And now I&amp;rsquo;m contemplating nothing. Head empty, no thoughts.
+ </description>
+    </item>
+    
+  </channel>
+</rss>
