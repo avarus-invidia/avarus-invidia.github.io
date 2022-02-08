@@ -338,7 +338,7 @@ Initial setup Search depends on additional output content type of JSON in config
       <pubDate>Tue, 08 Feb 2022 22:25:59 +0100</pubDate>
       
       <guid>https://avarus-invidia.github.io/posts/memory_leakage_debugger/</guid>
-      <description>So you&amp;rsquo;re having issues with memory allocation in your code? The solution to all my code memory problems was suggested today by my supervisor. As good as gdbcan be, it doesn&amp;rsquo;t really help me pinpoint it as easily as this new (thought rather old by itself) tool I&amp;rsquo;ll henceforth be using for all segmentation faults.
+      <description>So you&amp;rsquo;re having issues with memory allocation in your code? The solution to all my code memory problems was suggested today by my supervisor. As good as gdb can be, it doesn&amp;rsquo;t really help me pinpoint it as easily as this new (thought rather old by itself) tool I&amp;rsquo;ll henceforth be using for all segmentation faults.
 The tool itself Of course, a lot of people have heard of it. But not I!</description>
     </item>
     
