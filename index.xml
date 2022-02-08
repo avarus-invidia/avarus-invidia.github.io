@@ -6,7 +6,7 @@
     <description>Recent content on Avarus Invidia</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 03 Feb 2022 20:55:44 +0100</lastBuildDate><atom:link href="https://avarus-invidia.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 08 Feb 2022 22:25:59 +0100</lastBuildDate><atom:link href="https://avarus-invidia.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Resultados de Búsqueda</title>
       <link>https://avarus-invidia.github.io/search/</link>
@@ -330,6 +330,16 @@ No content shown here is rendered, all content is based in the template layouts/
 Setting a very low sitemap priority will tell search engines this is not important content.
 This implementation uses Fusejs, jquery and mark.js
 Initial setup Search depends on additional output content type of JSON in config.toml ``` [outputs] home = [&amp;ldquo;HTML&amp;rdquo;, &amp;ldquo;JSON&amp;rdquo;] ```</description>
+    </item>
+    
+    <item>
+      <title>Memory Leakage Debugger</title>
+      <link>https://avarus-invidia.github.io/posts/memory_leakage_debugger/</link>
+      <pubDate>Tue, 08 Feb 2022 22:25:59 +0100</pubDate>
+      
+      <guid>https://avarus-invidia.github.io/posts/memory_leakage_debugger/</guid>
+      <description>So you&amp;rsquo;re having issues with memory allocation in your code? The solution to all my code memory problems was suggested today by my supervisor. As good as gdbcan be, it doesn&amp;rsquo;t really help me pinpoint it as easily as this new (thought rather old by itself) tool I&amp;rsquo;ll henceforth be using for all segmentation faults.
+The tool itself Of course, a lot of people have heard of it. But not I!</description>
     </item>
     
     <item>
