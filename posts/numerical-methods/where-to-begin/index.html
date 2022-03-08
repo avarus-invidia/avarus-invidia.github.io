@@ -185,6 +185,18 @@
   
   
   
+    
+    
+  
+  
+    
+    <li><a class="active" href="/posts/numerical-methods/where-to-begin/" title="Where to begin">Where to begin</a></li>
+  
+
+  
+  
+  
+  
   
     
     <li><a class="" href="/posts/numerical-methods/from-calculus-to-numbers/" title="From Calculus to Numbers">From Calculus to Numbers</a></li>
@@ -194,12 +206,9 @@
   
   
   
-    
-    
-  
   
     
-    <li><a class="active" href="/posts/numerical-methods/where-to-begin/" title="Where to begin">Where to begin</a></li>
+    <li><a class="" href="/posts/numerical-methods/euler/" title="The Euler method">The Euler method</a></li>
   
 
 
@@ -247,8 +256,8 @@ where u is some state variable like particle density or temperature. The k denot
 We will then use this homogeneous partial differential equation, called the heat equation, to exemplify the numerical approach to a problem. Of course, this equation does have an analytical solution: $$u(t,x,y) = \sum_{m,n} A_{mn} sin(m \pi x) sin(n \pi y) e^{-\pi^2(m^2+n^2)t},$$
 with: $$A_mn = 4 \int\int dx dy \quad u(0,x,y) sin(m \pi x)sin(n \pi y),$$
 with initial condition (IC) u(0,x,y).</p>
-<h3 id="numerical-what-does-1-and-2-have-to-do-with-things">Numerical? What does 1 and 2 have to do with things?</h3>
-<p>But that is the result from approaching the problem analytically. There are plenty equations out there that describe a problem with real life application that have no analytical solution (not for a lack of trying). And for these we resort to numerical methods.</p>
+<h3 id="numerical-what-does-1-and-2-have-to-do-with-anything">Numerical? What does 1 and 2 have to do with anything?</h3>
+<p>What I talked about above is the result obtained from approaching the problem analytically. There are plenty equations out there that describe a problem with real life application that have no analytical solution (not for a lack of trying). And for these we resort to numerical methods.</p>
 <p>See the <a href="/posts/numerical-methods/euler/">Euler method</a> to find out how the problem is handled numerically.</p>
 <p>But what is the problem exactly? Why can&rsquo;t we find analytical solutions? The reason is calculus. It is an amazing tool that helps us understand countless physical phenomena, however it has its drawbacks in equation manipulation (or rather solving). We are unable to solve problems analytically because the mathematical language present to us is incomplete. So all we can do is wait. Or can we? If calculus is a problem for us, how do machines handle it?
 The answer to this is quite immediate. They don&rsquo;t handle it. We handle it, so to speak. We convert calculus into something that a machine knows what to do, and that is addition and subtraction.</p>
@@ -307,11 +316,14 @@ The answer to this is quite immediate. They don&rsquo;t handle it. We handle it,
   
 
   
+    
+    
+  
   
 
   
-    
-    
+  
+
   
   
 
@@ -319,13 +331,24 @@ The answer to this is quite immediate. They don&rsquo;t handle it. We handle it,
 <div class="row next-prev-navigator">
   
     <div class="col-md-6 previous-article">
-      <a href="/posts/numerical-methods/from-calculus-to-numbers/" title="From Calculus to Numbers" class="btn btn-outline-info">
+      <a href="/posts/daily-thoughts/night_thoughts/" title="Night Thoughts" class="btn btn-outline-info">
         <div><i class="fas fa-chevron-circle-left"></i> Prev</div>
-        <div class="next-prev-text">From Calculus to Numbers</div>
+        <div class="next-prev-text">Night Thoughts</div>
       </a>
     </div>
   
   
+      
+      
+        
+      
+      <div class="col-md-6 next-article">
+        <a href="/posts/numerical-methods/from-calculus-to-numbers/" title="From Calculus to Numbers" class="btn btn-outline-info">
+          <div>Next <i class="fas fa-chevron-circle-right"></i></div>
+          <div class="next-prev-text">From Calculus to Numbers</div>
+        </a>
+      </div>
+    
 </div>
 
       <hr />
@@ -357,7 +380,7 @@ The answer to this is quite immediate. They don&rsquo;t handle it. We handle it,
     <li><a href="#so-you-have-a-problem">So you have a problem&hellip;</a>
       <ul>
         <li><a href="#the-heat-equation">The heat equation</a></li>
-        <li><a href="#numerical-what-does-1-and-2-have-to-do-with-things">Numerical? What does 1 and 2 have to do with things?</a></li>
+        <li><a href="#numerical-what-does-1-and-2-have-to-do-with-anything">Numerical? What does 1 and 2 have to do with anything?</a></li>
       </ul>
     </li>
   </ul>

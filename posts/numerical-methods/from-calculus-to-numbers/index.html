@@ -185,6 +185,15 @@
   
   
   
+  
+    
+    <li><a class="" href="/posts/numerical-methods/where-to-begin/" title="Where to begin">Where to begin</a></li>
+  
+
+  
+  
+  
+  
     
     
   
@@ -199,7 +208,7 @@
   
   
     
-    <li><a class="" href="/posts/numerical-methods/where-to-begin/" title="Where to begin">Where to begin</a></li>
+    <li><a class="" href="/posts/numerical-methods/euler/" title="The Euler method">The Euler method</a></li>
   
 
 
@@ -251,17 +260,17 @@ $$x+h=x_i+h=x_{i+1},$$
 $$i\in [0..N].$$
 First we have (L), which is the physical distance between the tree (0) and the car (N). The next one, (x), represents the points (i) on the line separating the tree and the car which have been sliced into (N-1) equal pieces. Then we have the point next to (x), (x+h). And the actual distance between two points is h. Think of it like being on point (x) and by taking a step you will land on (x+h).</p>
 <p>Now that I have put this out there, we can go forward. In practice, the derivative from above is written as:
-$$\frac{\partial f}{\partial x} = \frac{f_{i+1}-f_(i)}{h}.$$</p>
+$$\frac{\partial f}{\partial x} = \frac{f_{i+1}-f_{i}{h}.$$</p>
 <p>This is called the forward finite difference method.</p>
 <p>But of course, the method doesn&rsquo;t come out just like that. The situation is a bit more complicated. Suppose you have the function f(x+h). Then what can you do with it? You can Taylor exand it. But I won&rsquo;t go into those details here (it&rsquo;s midnight, leave me alone), suffice to say that Taylor exanding a function brings out its derivatives and from there you manipulate the equation such that you have the derivative on one side and the rest on the other. But from these Taylor expansions we can define the following finite difference methods:</p>
 <h3 id="first-order-forward-finite-difference-ffd">First-order forward finite difference (FFD)</h3>
-<p>$$\frac{\partial f}{\partial x} = \frac{f_{i+1}-f_(i)}{h}.$$</p>
+<p>$$\frac{\partial f}{\partial x} = \frac{f_{i+1}-f_{i}}{h}.$$</p>
 <h3 id="first-order-backward-finite-difference-bfd">First-order backward finite difference (BFD)</h3>
-<p>$$\frac{\partial f}{\partial x} = \frac{f_{i}-f_(i-1)}{h}.$$</p>
+<p>$$\frac{\partial f}{\partial x} = \frac{f_{i}-f_{i-1}}{h}.$$</p>
 <h3 id="fird-order-central-finite-difference-cfd">Fird-order central finite difference (CFD)</h3>
-<p>$$\frac{\partial f}{\partial x} = \frac{f_{i+1}-f_(i-1)}{2h}.$$</p>
+<p>$$\frac{\partial f}{\partial x} = \frac{f_{i+1}-f_{i-1}}{2h}.$$</p>
 <h3 id="second-order-central-finite-difference">Second-order central finite difference</h3>
-<p>$$\frac{\partial^2 f}{\partial x^2} = \frac{f_{i+1}-2 f_(i)+f_{i-1}}{h^2}.$$</p>
+<p>$$\frac{\partial^2 f}{\partial x^2} = \frac{f_{i+1}-2 f_i+f_{i-1}}{h^2}.$$</p>
 <p>So we went from some complicated stuff like calculus to simply adding and subtracting some values. Simple, right? Well yes and no. For one, ghost cells! You see, we need points from the left and/or right of the domain. I initially said that the tree was point (0) and the car was point (N). But if we evaluate it at (N) we need point (N+1). Similarly for (0) we need point (-1). And that is why we have these things called ghost cells. And here comes a talk about one of the major issues once can have when implementing numerical methods (though they also appear when solving problems analytically), and that is: boundary conditions!</p>
 <p>Boundary conditions define how the points at the boundary behave. But these conditions could also define your ghost cells. But boundary conditions are a talk for another time.</p>
 
@@ -318,6 +327,9 @@ $$\frac{\partial f}{\partial x} = \frac{f_{i+1}-f_(i)}{h}.$$</p>
   
 
   
+  
+
+  
     
     
   
@@ -330,9 +342,9 @@ $$\frac{\partial f}{\partial x} = \frac{f_{i+1}-f_(i)}{h}.$$</p>
 <div class="row next-prev-navigator">
   
     <div class="col-md-6 previous-article">
-      <a href="/posts/daily-thoughts/night_thoughts/" title="Night Thoughts" class="btn btn-outline-info">
+      <a href="/posts/numerical-methods/where-to-begin/" title="Where to begin" class="btn btn-outline-info">
         <div><i class="fas fa-chevron-circle-left"></i> Prev</div>
-        <div class="next-prev-text">Night Thoughts</div>
+        <div class="next-prev-text">Where to begin</div>
       </a>
     </div>
   
@@ -342,9 +354,9 @@ $$\frac{\partial f}{\partial x} = \frac{f_{i+1}-f_(i)}{h}.$$</p>
         
       
       <div class="col-md-6 next-article">
-        <a href="/posts/numerical-methods/where-to-begin/" title="Where to begin" class="btn btn-outline-info">
+        <a href="/posts/numerical-methods/euler/" title="The Euler method" class="btn btn-outline-info">
           <div>Next <i class="fas fa-chevron-circle-right"></i></div>
-          <div class="next-prev-text">Where to begin</div>
+          <div class="next-prev-text">The Euler method</div>
         </a>
       </div>
     
