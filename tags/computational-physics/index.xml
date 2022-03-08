@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Numerical Methods on Avarus Invidia</title>
-    <link>https://avarus-invidia.github.io/posts/numerical-methods/</link>
-    <description>Recent content in Numerical Methods on Avarus Invidia</description>
+    <title>Computational Physics on Avarus Invidia</title>
+    <link>https://avarus-invidia.github.io/tags/computational-physics/</link>
+    <description>Recent content in Computational Physics on Avarus Invidia</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 01 Feb 2022 21:01:17 +0100</lastBuildDate><atom:link href="https://avarus-invidia.github.io/posts/numerical-methods/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 01 Feb 2022 21:01:17 +0100</lastBuildDate><atom:link href="https://avarus-invidia.github.io/tags/computational-physics/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>From Calculus to Numbers</title>
       <link>https://avarus-invidia.github.io/posts/numerical-methods/from-calculus-to-numbers/</link>

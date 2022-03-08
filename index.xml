@@ -363,6 +363,15 @@ Of course, I am not even using vector. It is, of course, an old library. However
     </item>
     
     <item>
+      <title>From Calculus to Numbers</title>
+      <link>https://avarus-invidia.github.io/posts/numerical-methods/from-calculus-to-numbers/</link>
+      <pubDate>Tue, 01 Feb 2022 21:01:17 +0100</pubDate>
+      
+      <guid>https://avarus-invidia.github.io/posts/numerical-methods/from-calculus-to-numbers/</guid>
+      <description>We start off from the definition of a derivative: $$\frac{\partial f}{\partial x} = \lim_{h\to 0} \frac{f(x+h)-f(x)}{h}$$, where we have a limit of a function f(x) which depends on the variable x. The limit here tells us that h goes to a null value. That is to say the result is exact if h is 0. But numerically speaking, h is just a very small number (1e-42 may as well be considered 0, but it&amp;rsquo;s not actually 0).</description>
+    </item>
+    
+    <item>
       <title>Night Thoughts</title>
       <link>https://avarus-invidia.github.io/post/night_thoughts/</link>
       <pubDate>Tue, 01 Feb 2022 21:01:17 +0100</pubDate>
@@ -382,6 +391,15 @@ And now I&amp;rsquo;m contemplating nothing. Head empty, no thoughts.
       <description> The pizza today was great Overly stressed I indulged myself in a Mezzo/Mezzo pizza, one side being a quattro formaggi (four cheese) and the other one being bussola (ham and shrimp).
 And now I&amp;rsquo;m contemplating nothing. Head empty, no thoughts.
  </description>
+    </item>
+    
+    <item>
+      <title>Where to begin</title>
+      <link>https://avarus-invidia.github.io/posts/numerical-methods/where-to-begin/</link>
+      <pubDate>Tue, 01 Feb 2022 21:01:17 +0100</pubDate>
+      
+      <guid>https://avarus-invidia.github.io/posts/numerical-methods/where-to-begin/</guid>
+      <description>So you have a problem&amp;hellip; So we have a problem that we wish to analyse. Say, we have a system (a region of space) which is populated by some particles (generally simple, point like particles). These particles have some initial state that we observed and we wish to know how the system evolves in time. Since the system is comprised of these particles, the evolution over time of the particle distribution should give us good insight on what will happen later on.</description>
     </item>
     
     <item>
